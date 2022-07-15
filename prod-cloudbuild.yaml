@@ -19,7 +19,7 @@ steps:
     name: 'gcr.io/$PROJECT_ID/kustomize'
     args:
     - 'build'
-    - 'overlays/prod'
+    - 'overlays/production'
     env:
       - 'APPLY=true'
       - 'CLOUDSDK_COMPUTE_REGION=asia-south1'
